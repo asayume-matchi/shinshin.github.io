@@ -1,0 +1,208 @@
+/* =========================
+   深森月刊・基本設定
+========================= */
+
+body {
+  margin: 0;
+
+  background-color: #e8e5d9;
+  color: #302d27;
+
+  font-family:
+    "Yu Mincho",
+    "Hiragino Mincho ProN",
+    serif;
+
+  line-height: 1.9;
+}
+
+
+/* =========================
+   ページ全体
+========================= */
+
+main {
+  max-width: 760px;
+
+  margin: 0 auto;
+  padding: 30px 20px 60px;
+}
+
+
+/* =========================
+   ヘッダー
+========================= */
+
+.site-header {
+  text-align: center;
+
+  border-bottom: 1px solid #777;
+
+  padding: 35px 20px 20px;
+
+  background-color: #dedbd0;
+}
+
+
+.town-name {
+  font-size: 13px;
+  letter-spacing: 0.2em;
+}
+
+
+h1 {
+  margin: 5px 0;
+
+  font-size: 42px;
+
+  letter-spacing: 0.15em;
+}
+
+
+.subtitle {
+  margin-top: 0;
+
+  font-size: 13px;
+}
+
+
+/* =========================
+   ナビゲーション
+========================= */
+
+nav {
+  margin-top: 25px;
+}
+
+
+nav a {
+  margin: 0 8px;
+
+  color: #302d27;
+
+  text-decoration: none;
+
+  font-size: 14px;
+}
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================
+   見出し
+========================= */
+
+h2 {
+  border-bottom: 1px solid #999;
+
+  padding-bottom: 5px;
+
+  font-size: 22px;
+}
+
+
+h3 {
+  font-size: 20px;
+}
+
+
+/* =========================
+   トップの説明
+========================= */
+
+.notice {
+  margin-bottom: 50px;
+
+  padding: 25px;
+
+  border: 1px solid #aaa;
+
+  background-color: #f0eee7;
+}
+
+
+.small-title {
+  font-size: 12px;
+
+  letter-spacing: 0.15em;
+}
+
+
+/* =========================
+   記事カード
+========================= */
+
+.article-card {
+  margin: 20px 0 40px;
+
+  padding: 20px;
+
+  border-left: 4px solid #777;
+
+  background-color: #f2f0e9;
+}
+
+
+.article-card .date {
+  font-size: 13px;
+
+  color: #666;
+}
+
+
+/* =========================
+   リンク
+========================= */
+
+a {
+  color: #514a6b;
+}
+
+
+.article-card a {
+  font-weight: bold;
+}
+
+
+/* =========================
+   編集部
+========================= */
+
+.editor-note {
+  margin-top: 60px;
+
+  padding: 25px;
+
+  background-color: #ddd9cc;
+}
+
+
+/* =========================
+   フッター
+========================= */
+
+footer {
+  padding: 30px 20px;
+
+  text-align: center;
+
+  border-top: 1px solid #888;
+
+  background-color: #d5d1c5;
+
+  font-size: 13px;
+}
+
+
+/* =========================
+   小さい文字
+========================= */
+
+.small {
+  font-size: 11px;
+
+  color: #666;
+}
